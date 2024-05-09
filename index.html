@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designs by Prash</title>  
+    <link rel="stylesheet" type="text/css" href="prash.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="image description" class="image-with-border">
+        <h1>Designs by Prash</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Designs by Prash</h2>
+            <p>Step into a world where imagination knows no bounds. Welcome to Designs by Prash, where every stroke of creativity is a brush dipped in the colors of innovation. Let us be your guide through the realm of graphic design, where dreams take shape, ideas find wings, and visions become vivid realities. Embark on a journey where every pixel tells a story, and every design is a masterpiece in its own right. Welcome to a place where the extraordinary begins.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At Designs by Prash, we're passionate about creating stunning designs that captivate audiences and leave a lasting impression...</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Graphic Design</li>
+                <li>Video Editing</li>
+                <li>Branding</li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Take a look at some of our recent projects and see for yourself the quality of our work.</p>
+            <div class="portfolio-images">
+                <div class="initial-images">
+                <img src="aries.jpg" alt="Project 1">
+                <img src="cosmos.jpg" alt="Project 2">
+                <img src="arow.jpg" alt="Project 3">      
+                <img src="donite.jpg" alt="Project 4">
+                <img src="mirror m.jpg" alt="Project 5">
+                <img src="rj koncept.jpg" alt="Project 6">
+                <img src="saber.jpg" alt="Project 7">
+                <img src="wolf.jpg" alt="Project 8">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Ready to get started? Get in touch with us today to discuss your design needs and receive a free quote.</p>
+            <ul>
+                <li>Email: [py2652862@gmail.com]</li>
+                <li>Phone: [9389115762]</li>
+                <li>instagram: @designs_by_prash</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Designs by Prash</p>
+    </footer>
+    
+    <script>
+        // Smooth scroll effect
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+    
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+     </script>
+</body>
+</html>
